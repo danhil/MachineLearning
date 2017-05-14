@@ -1,2 +1,2 @@
 # MachineLearning
-Machine learning coursera course.
+Shared repo for machinelearning contributions and activities.
