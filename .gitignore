@@ -3,6 +3,17 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Octave workspace
+octave-workspace
+# store
+.DS_store
+#project
+.project
+# Course token
+token.mat
+# Course excercise instructions
+*.pdf
+
 # C extensions
 *.so
 
