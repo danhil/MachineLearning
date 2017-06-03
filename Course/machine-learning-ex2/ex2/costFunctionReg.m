@@ -19,11 +19,11 @@ grad = zeros(size(theta));
 reg_theta = [0; theta(2:size(theta))];
 % Calculate regularization parameters 
 J_regularization = (lambda / (2*m)) * transpose(reg_theta) * reg_theta;
-theta_regularization = (lambda/m) * reg_theta;
+grad_regularization = (lambda/m) * reg_theta;
 % Calculate cost
 [J, grad] = costFunction(theta, X, y);
 % Complute regularized cost
 J = J + J_regularization;
-grad = grad + theta_regularization;
+grad = grad + grad_regularization;
 % =============================================================
 end
